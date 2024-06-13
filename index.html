@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Handball Übungen</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>Handball Übungen</h1>
+    </header>
+    <main>
+        <section id="categories">
+            <h2>Kategorien</h2>
+            <ul>
+                <li><a href="#" onclick="filterExercises('U10')">U10</a></li>
+                <li><a href="#" onclick="filterExercises('U12')">U12</a></li>
+                <li><a href="#" onclick="filterExercises('U14')">U14</a></li>
+                <!-- Weitere Altersgruppen hinzufügen -->
+            </ul>
+        </section>
+        <section id="exercises">
+            <h2>Übungen</h2>
+            <div id="exercise-list">
+                <!-- Übungen werden hier dynamisch eingefügt -->
+            </div>
+        </section>
+    </main>
+    <script src="script.js"></script>
+</body>
+</html>
