@@ -14,6 +14,10 @@ const exercises = [
     { id: 13, category: 'A-Jugend', name: 'Dribbling Übung', image: 'a-jugend-dribbling.png', pdf: 'a-jugend-dribbling.pdf' },
     { id: 14, category: 'A-Jugend', name: 'Wurftraining', image: 'a-jugend-wurftraining.png', pdf: 'a-jugend-wurftraining.pdf' },
     { id: 15, category: 'A-Jugend', name: 'Zirkeltraining', image: 'a-jugend-zirkeltraining.png', pdf: 'a-jugend-zirkeltraining.pdf' },
+    { id: 16, category: 'Toppies', name: 'Dribbling Übung', image: 'Toppies-dribbling.png', pdf: 'Toppies-dribbling.pdf' },
+    { id: 17, category: 'Toppies', name: 'Wurftraining', image: 'Toppies-wurftraining.png', pdf: 'Toppies-wurftraining.pdf' },
+    { id: 18, category: 'Toppies', name: 'Zirkeltraining', image: 'Toppies-zirkeltraining.png', pdf: 'Toppies-zirkeltraining.pdf' },
+    
     // Weitere Übungen hinzufügen
 ];
 
