@@ -1,5 +1,5 @@
 const exercises = [
-    { id: 1, category: 'E-Jugend', name: 'Dribbling Übung', image: 'e-jugend-dribbling.png' },
+    { id: 1, category: 'E-Jugend', name: 'Dribbling Übung', image: 'test.png' },
     { id: 2, category: 'E-Jugend', name: 'Wurftraining', image: 'e-jugend-wurftraining.png' },
     { id: 3, category: 'E-Jugend', name: 'Zirkeltraining', image: 'e-jugend-zirkeltraining.png' },
     { id: 4, category: 'D-Jugend', name: 'Dribbling Übung', image: 'd-jugend-dribbling.png' },
