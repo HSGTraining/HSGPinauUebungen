@@ -1,5 +1,5 @@
 const exercises = [
-    { id: 1, category: 'E-Jugend', name: 'Dribbling Übung', image: 'test.png' },
+    { id: 1, category: 'E-Jugend', name: 'Dribbling Übung', image: 'test.pdf' },
     { id: 2, category: 'E-Jugend', name: 'Wurftraining', image: 'e-jugend-wurftraining.png' },
     { id: 3, category: 'E-Jugend', name: 'Zirkeltraining', image: 'e-jugend-zirkeltraining.png' },
     { id: 4, category: 'D-Jugend', name: 'Dribbling Übung', image: 'd-jugend-dribbling.png' },
@@ -27,7 +27,7 @@ function filterExercises(category) {
         exerciseItem.innerHTML = `
             <h3>${ex.name}</h3>
             <img src="${ex.image}" alt="${ex.name}">
-            <a href="${ex.image}" download="${ex.name}.png">Download</a>
+            <a href="${ex.image}" download="${ex.name}.pdf">Download</a>
         `;
         exerciseList.appendChild(exerciseItem);
     });
